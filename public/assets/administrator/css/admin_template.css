@@ -1,0 +1,92 @@
+
+.ui-tooltip {
+    display: none !important;
+}
+
+.clearfix { clear: both;}
+
+.swal-overlay { z-index: 99999;}
+
+.swal-footer { text-align: center;}
+
+.select2-container { height: 34px;}
+
+.ordering-input { width: 50px !important; text-align: center;}
+
+.btn-sitepreview { line-height: normal !important;}
+
+.fancybox-opened .fancybox-outer .fancybox-inner { height: 500px !important;}
+
+.message-area-wrapper .alert { border-radius: 0;}
+
+.btn-toolbar i.fa-times-circle { color: #942a25;}
+.btn-toolbar i.fa-check { color: #378137;}
+.btn-toolbar i.fa-star { color: #f39c12;}
+
+.btn i.fa-times-circle { color: #942a25;}
+.btn i.fa-check { color: #378137;}
+.btn i.fa-star { color: #f39c12;}
+
+.btn-toolbar .btn i { padding-right: 5px;}
+.btn-toolbar .btn i.fa-spinner { padding-right: 0; margin-right: 5px;}
+.btn-toolbar .btn i.fa-spin { padding-right: 0; margin-right: 5px;}
+
+.form-group label { display: block;}
+
+.slider_images_list-wrapper .xslide-class { padding-top: 20px; padding-bottom: 20px;}
+
+.radiogroup_codeignitor .btn-group .radio_label { font-weight: normal; margin: 0; display: block;}
+
+.homepage-slider_images-field .slider_images_list-wrapper { overflow: visible;}
+.homepage-slider_images-field .slider_images_list-wrapper .slide-block .row { margin: 0;}
+
+.category-slider_images-field .slider_images_list-wrapper { overflow: visible;}
+.category-slider_images-field .slider_images_list-wrapper .slide-block .row { margin: 0;}
+
+.article-media_images-field hr { margin-top: 10px; margin-bottom: 10px;}
+.article-media_images-field .media_images_list-wrapper { overflow: visible;}
+.article-media_images-field .media_images_action .btn-add_media_image { margin-bottom: 5px;}
+.article-media_images-field .media_images_list-wrapper .input-group { margin-bottom: 5px;}
+.article-media_images-field .media_images_list-wrapper .input-group .input-group-move { padding-left: 5px; padding-right: 5px;}
+
+.article-travel-field hr { margin-top: 10px; margin-bottom: 10px;}
+.article-travel-field .travel_list-wrapper { overflow: visible;}
+.article-travel-field .travel_list .btn-add_media_image { margin-bottom: 5px;}
+.article-travel-field .travel_list-wrapper .input-group { margin-bottom: 5px;}
+.article-travel-field .travel_list-wrapper .input-group .input-group-move { padding-left: 5px; padding-right: 5px;}
+.article-travel-field .travel_list-wrapper .travel_list-container .form-group { margin-top: 10px;}
+.article-travel-field .travel_list-wrapper .travel_list-container textarea { height: 100px;}
+
+.article-mangomolo_videoid-field .select2-container { width: 100%!important;}
+
+.article-ingredients-field hr { margin-top: 10px; margin-bottom: 10px;}
+.article-ingredients-field .ingredients_list-wrapper { overflow: visible;}
+.article-ingredients-field .ingredients_action .btn-add_media_image { margin-bottom: 5px;}
+.article-ingredients-field .ingredients_list-wrapper .input-group { margin-bottom: 5px;}
+.article-ingredients-field .ingredients_list-wrapper .input-group .input-group-move { padding-left: 5px; padding-right: 5px;}
+
+.label-block { padding: 10px; display: block; font-size: 100%; font-weight: normal;}
+
+.access_level_fieldset { border: 1px solid silver; padding: 15px; margin-bottom: 15px;}
+.access_level_fieldset legend { width: auto; margin-bottom: 0; border: none; padding: 0 15px; font-size: 20px;}
+.access_level_fieldset .icheckbox_square-blue { margin-right: 10px;}
+
+.category_menu_type_col .select2 { width: 100%!important;}
+.article_menu_type_col .select2 { width: 100%!important;}
+.video_category_menu_type_col .select2 { width: 100%!important;}
+
+.file-input { visibility: hidden; position: absolute;}
+
+.data-tabs .tab-content { border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; border-left: 1px solid #DDDDDD; padding: 10px 15px;}
+
+.jquery-fileupload-presentation .template-upload .panel { position: relative; border-radius: 0;}
+.jquery-fileupload-presentation .template-upload .panel .progress { margin-bottom: 0;}
+.jquery-fileupload-presentation .template-upload .panel .btn-actions { position: absolute; top: 0; right: 0;}
+.jquery-fileupload-presentation .template-upload .panel .btn-actions .btn { border-radius: 0;}
+
+.jquery-fileupload-presentation .template-download .panel { position: relative; border-radius: 0;}
+.jquery-fileupload-presentation .template-download .panel .progress { margin-bottom: 0;}
+.jquery-fileupload-presentation .template-download .panel .btn-actions { position: absolute; top: 0; right: 0;}
+.jquery-fileupload-presentation .template-download .panel .btn-actions .btn { border-radius: 0;}
+.jquery-fileupload-presentation .template-download .panel .btn-actions .btn-deletecheck { padding-top: 5px; padding-bottom: 5px;}                                                                                                                                                                                                                                   
+.synchvideoModal .synchResponseBlock { height: 400px; overflow-y: scroll;}

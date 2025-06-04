@@ -1,0 +1,226 @@
+
+#navbar { z-index: 999; position: relative;}
+#navbar.sticky { position: fixed; width: 100%; top: 0; left: 0;}
+
+.bg-97B2C7 { background: #97B2C7;}
+
+.mobile-title { font-size: 13px; text-align: center;}
+
+.clearfix { clear: both;}
+
+.message-area-wrapper { position: absolute; top: 0; right: 15px; z-index: 999; font-size: 14px;}
+.message-area-wrapper h4 { font-size: 16px; margin-bottom: 5px;}
+
+#navbar h5 { font-family: 'Old Standard TT', serif; font-size: 35px;}
+
+.banner-home a { color: #ff0;}
+
+.contact .gradient {
+	background: -moz-linear-gradient(left, rgba(151, 178, 199, 0.89) 0%, rgba(151, 178, 199, 0.89) 100%);
+	background: -webkit-linear-gradient(left, rgba(151, 178, 199, 0.89) 0%, rgba(151, 178, 199, 0.89) 100%);
+	background: linear-gradient(to right, rgba(151, 178, 199, 0.89) 0%, rgba(151, 178, 199, 0.89) 100%);
+}
+.contact address span { color: #FFFFFF;}
+.contactus-page address span { color: #000000;}
+
+.copyright p { font-size: 15px;}
+.section-4 { background: #97B2C7;}
+
+.desktop-mainmenu-wrapper li.dropdown:hover .dropdown-menu{ display: block; }
+
+.language-switcher { margin-top: 4px;}
+.language-switcher a { color: #FFFFFF; display: inline-block; padding: 0 10px; position: relative;}
+.language-switcher a.active { color: #FFFFFF;}
+.language-switcher a::after { position: absolute; right: -3px; top: 8px; width: 1px; height: 13px; background: #FFFFFF; content: '';}
+.language-switcher a:last-child::after { display: none;}
+
+.submenu .nav-link { padding-top: 5px; padding-bottom: 5px;}
+
+.desktop-mainmenu-wrapper { background: rgba(0,0,0,0.2); margin-top: 0; position: relative; z-index: 9;}
+.desktop-mainmenu-wrapper .nav-link { color: #FFFFFF; font-size: 14px;}
+.desktop-mainmenu-wrapper .dropdown-toggle::after { margin-left: 10px; }
+.desktop-mainmenu-wrapper .dropdown-menu { background: rgba(0,0,0,0.7); border-radius: 0; margin-top: 0; border-top: none;}
+.desktop-mainmenu-wrapper .dropdown-menu .dropdown-item { color: #FFFFFF; font-size: 14px; background: none;}
+.desktop-mainmenu-wrapper .dropdown-menu .dropdown-item:hover { color: #49a003;}
+
+
+.contactus-page { color: #000000; background: none;}
+.contactus-page .form-control { border: 2px solid rgba(73, 160, 3, 1);}
+.contactus-page form .btn-primary, 
+.contactus-page form .btn-primary:not(:disabled):not(.disabled):active { background-color: rgba(73, 160, 3, 1);}
+
+.scheudule-page .scheudule-content-container .scheudule-carousel .row { margin-left: -5px; margin-right: -5px;}
+.scheudule-page .scheudule-content-container .scheudule-carousel [class^="col-"], 
+.scheudule-page .scheudule-content-container .scheudule-carousel [class*=" col-"] {
+	padding-left: 5px; padding-right: 5px;
+}
+.scheudule-page .scheudule-content-container .scheudule-box { border-radius: 0; border: none;}
+.scheudule-page .scheudule-content-container .scheudule-box .schedule-dateday { text-align: center; padding: 5px 0 !important; background: none; text-transform: uppercase; font-size: 13px; border-bottom-color: #000000; margin-bottom: 15px;}
+.scheudule-page .scheudule-content-container .scheudule-box .schedule-dateday h4 { font-size: 17px; font-weight: 600; color: rgba(73, 160, 3, 0.94);}
+.scheudule-page .scheudule-content-container .scheudule-box .schedule-data { font-size: 13px; border-bottom: 1px solid #ededed; padding: 10px 5px!important; line-height: 25px;}
+.scheudule-page .scheudule-content-container .scheudule-box .schedule-data:hover { background: #ededed;}
+.scheudule-page .scheudule-content-container .scheudule-box .schedule-data .schedule-yoga_type { font-size: 14px; font-weight: 600; text-transform: uppercase; margin-top: 5px; line-height: normal;}
+.scheudule-page .scheudule-content-container .scheudule-box .schedule-data .schedule-teacher_id { margin-bottom: 5px;}
+.scheudule-page .scheudule-content-container .scheudule-carousel .owl-nav { margin: 30px 0; text-align: center;}
+.scheudule-page .scheudule-content-container .scheudule-carousel .owl-nav button { 
+	background: rgba(73, 160, 3, 0.8);
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 6px 12px !important;
+	border-radius: 25px;
+	font-size: 12px;
+	min-width: 110px;
+	text-align: center;
+	margin: 0 5px;
+}
+.scheudule-page .scheudule-content-container .scheudule-carousel .owl-nav button:hover { background: rgba(73, 160, 3, 1);}
+.scheudule-page .scheudule-content-container .scheudule-carousel .owl-nav button.disabled { opacity: 0.5; cursor: not-allowed;}
+
+
+.scheudule-page .scheudule-content-container .schedule-table-wrapper .title-tr td { font-weight: 700; font-size: 22px; line-height: 35px;}
+.scheudule-page .scheudule-content-container .schedule-table-wrapper .data-tr td { font-weight: 700; font-size: 20px;}
+.scheudule-page .scheudule-content-container .schedule-table-wrapper .bg-1 { background: #00ffff;}
+.scheudule-page .scheudule-content-container .schedule-table-wrapper .bg-2 { background: #ffff00;}
+.scheudule-page .scheudule-content-container .schedule-table-wrapper .bg-3 { background: #cc99ff;}
+.scheudule-page .scheudule-content-container .schedule-table-wrapper .bg-4 { background: #ff9900;}
+.scheudule-page .scheudule-content-container .schedule-table-wrapper .bg-5 { background: #ffff99;}
+ 
+
+#rates img { height: auto;}
+
+section.pricing {
+
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(73, 160, 3, 1);
+  overflow: hidden;
+  /*background: #54a50f;
+  background: -webkit-linear-gradient(to top, #42840e, #54a50f, #98be1e);
+  background: linear-gradient(to top, #42840e, #54a50f, #98be1e); */
+}
+
+.pricing .card .top-content { background: #54a50f;}
+.pricing .card .bottom-content { background: #98be1e;}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 13px;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 85%;
+  border-radius: 5rem;
+  /*letter-spacing: .1rem;*/
+  font-weight: bold;
+  /*padding: 1rem;
+  opacity: 0.7;*/
+  transition: all 0.2s;
+  background: #54a50f;
+}
+
+.articledetails-content-layout-container ul { list-style: disc; padding-left: 15px;}
+.articledetails-content-layout-container ul li { display: list-item;}
+
+.articledetails-content-layout-container ol { list-style: decimal; padding-left: 15px;}
+.articledetails-content-layout-container ol li { display: list-item;}
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 991px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+	flex:none !important;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+	flex:none !important;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  
+  .banner-home::after { bottom: -50px;}
+  
+}
+
+@media (max-width: 991px) {
+  
+  #navbar h5 { font-size: 25px;}
+  #navbar .left-side { font-size: 14px;}
+  .desktop-mainmenu-wrapper .nav-link { font-size: 13px; padding-left: .3rem; padding-right: .3rem;}
+  .banner-home::after { bottom: -14px;}
+  
+}
+
+
+@media (max-width: 767px) {
+  
+  header .social-icons a:first-child { margin-left: 0;}
+  
+}
