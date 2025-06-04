@@ -1,6 +1,6 @@
 <?php
 
-
+helper('form');
 
 $articles_modal_filter =session()->get('articles_modal_filter');
 

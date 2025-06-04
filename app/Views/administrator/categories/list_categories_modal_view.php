@@ -1,6 +1,6 @@
 <?php
 
-
+helper('form');
 
 $categories_modal_filter = session()->get('categories_modal_filter');
 $search_val = $categories_modal_filter['search_val'];

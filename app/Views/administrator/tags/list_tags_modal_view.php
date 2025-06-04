@@ -1,8 +1,8 @@
 <?php
 
+helper('form');
 
-
-$tags_modal_filter = $this->session->userdata('tags_modal_filter');
+$tags_modal_filter = session()->get('tags_modal_filter');
 
 ?>
 

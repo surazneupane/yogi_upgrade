@@ -70,12 +70,15 @@ $routes->MATCH(['GET', 'POST'], 'administrator/user/login', 'administrator\User:
 $routes->POST('clearcacheAjax', 'administrator\Dashboard::clearcacheAjax');
 
 // ARTICLE MODEL LIST IN EDITOR IN BACKEND
+$routes->MATCH(['GET'], 'articlesModal/', 'administrator\Articles::articles_modal');
 $routes->MATCH(['GET', 'POST'], 'articlesModal/(:any)?', 'administrator\Articles::articles_modal/$1');
 
 // CATEGORY MODEL LIST IN EDITOR IN BACKEND
+$routes->MATCH(['GET'], 'categoriesModal/', 'administrator\Categories::categories_modal');
 $routes->MATCH(['GET', 'POST'], 'categoriesModal/(:any)?', 'administrator\Categories::categories_modal/$1');
 
 // TAG MODEL LIST IN EDITOR IN BACKEND
+$routes->MATCH(['GET'], 'tagsModal/', 'administrator\Tags::tags_modal');
 $routes->MATCH(['GET', 'POST'], 'tagsModal/(:any)?', 'administrator\Tags::tags_modal/$1');
 
 // GET USER AJAX CALL ROUTE 
