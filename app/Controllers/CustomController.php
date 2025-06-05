@@ -34,7 +34,7 @@ class CustomController extends BaseController
 		// 	session()->set("lang", 'fr');
 		// }
 
-		$this->clang = $lang = session()->get('lang') ?? 'fr';
+		$this->clang = $lang = !empty(session()->get('lang')) ? session()->get('lang') : 'fr';
 		session()->set('lang',$lang);
 		Services::request()->setLocale($lang);
 
